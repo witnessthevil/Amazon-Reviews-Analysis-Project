@@ -1,0 +1,58 @@
+2022-11-12 20:38:38,127  - extractor.py - INFO - This is the extracting part
+2022-11-12 20:38:38,234  - extractor.py - INFO - Now extracting the product_Video_Games
+2022-11-12 20:38:38,234  - extractor.py - INFO - Now extracting the metadata_Video_Games
+2022-11-12 20:39:23,137  - extractor.py - INFO - This is the extracting part
+2022-11-12 20:39:23,241  - extractor.py - INFO - Now extracting the product_Video_Games
+2022-11-12 20:39:23,241  - extractor.py - INFO - Now extracting the metadata_Video_Games
+2022-11-12 20:41:16,233  - extractor.py - INFO - This is the extracting part
+2022-11-12 20:41:16,342  - extractor.py - INFO - Now extracting the product_Video_Games
+2022-11-12 20:41:16,343  - extractor.py - INFO - Now extracting the metadata_Video_Games
+2022-11-12 20:41:56,501  - extractor.py - INFO - This is the extracting part
+2022-11-12 20:41:56,618  - extractor.py - INFO - Now extracting the product_Video_Games
+2022-11-12 20:41:56,619  - extractor.py - INFO - Now extracting the metadata_Video_Games
+2022-11-12 20:43:59,772  - extractor.py - INFO - This is the extracting part
+2022-11-12 20:43:59,774  - extractor.py - INFO - Now extracting the product_Video_Games
+2022-11-12 20:45:18,767  - extractor.py - INFO - This is the extracting part
+2022-11-12 20:45:18,768  - extractor.py - INFO - Now extracting the product_Video_Games
+2022-11-12 20:49:16,099  - extractor.py - INFO - Now extracting the product_Video_Games
+2022-11-12 20:49:16,099  - extractor.py - INFO - Now extracting the metadata_Video_Games
+2022-11-12 20:50:38,644  - extractor.py - INFO - Now extracting the product_Video_Games
+2022-11-12 20:50:38,644  - extractor.py - INFO - Now extracting the metadata_Video_Games
+2022-11-12 20:50:56,331  - extractor.py - INFO - Successfully downloaded metadata_Video_Games to local file system
+2022-11-12 20:50:56,869  - extractor.py - INFO - Successfully downloaded product_Video_Games to local file system
+2022-11-12 20:50:56,880  - extractor.py - INFO - This is the extracting part
+2022-11-12 20:50:56,881  - extractor.py - INFO - Extract CPU usage 15.4
+2022-11-12 20:50:56,881  - extractor.py - INFO - Extract part has took 1.9073486328125e-06s
+2022-11-12 20:50:56,881  - extractor.py - INFO - You have sucessfully finished the extractor part, now move on to the transform part
+2022-11-12 20:52:29,103  - transformer.py - INFO - Now perform the transformation part
+2022-11-12 20:52:35,936  - transformer.py - INFO - now transforming the combined df to json
+2022-11-12 20:54:03,281  - transformer.py - INFO - Now perform the transformation part
+2022-11-12 20:54:08,823  - transformer.py - INFO - now transforming the combined df to json
+2022-11-12 20:54:46,949  - transformer.py - INFO - successfully transform combined df to json
+2022-11-12 20:54:46,960  - transformer.py - INFO - now find the most rated goods in all product
+2022-11-12 20:55:20,263  - transformer.py - INFO - successfully transform most rated good df to json
+2022-11-12 20:55:20,276  - transformer.py - INFO - now finding the amount of review on each year
+2022-11-12 20:55:48,782  - transformer.py - INFO - successfully transform review each year df to json
+2022-11-12 20:55:48,802  - transformer.py - INFO - Extract CPU usage 73.6
+2022-11-12 20:55:48,804  - transformer.py - INFO - Extract part has took 99.97101187705994s
+2022-11-12 20:55:48,804  - transformer.py - INFO - You have sucessfully finished the transformation part, now move on to the load part
+2022-11-12 21:18:58,666  - transformer.py - INFO - Now perform the transformation part
+2022-11-12 21:19:05,220  - transformer.py - INFO - now transforming the combined df to json
+2022-11-12 21:19:47,526  - transformer.py - INFO - successfully transform combined df to json
+2022-11-12 21:19:47,540  - transformer.py - INFO - now find the most rated goods in all product
+2022-11-12 21:20:34,748  - transformer.py - INFO - successfully transform most rated good df to json
+2022-11-12 21:20:34,775  - transformer.py - INFO - now finding the amount of review on each year
+2022-11-12 21:21:12,940  - transformer.py - INFO - successfully transform review each year df to json
+2022-11-12 21:21:13,176  - transformer.py - INFO - Extract CPU usage 64.6
+2022-11-12 21:21:13,176  - transformer.py - INFO - Extract part has took 127.94111394882202s
+2022-11-12 21:21:13,176  - transformer.py - INFO - You have sucessfully finished the transformation part, now move on to the load part
+2022-11-12 21:23:23,753  - transformer.py - INFO - Now perform the transformation part
+2022-11-12 21:23:30,298  - transformer.py - INFO - now transforming the combined df to json
+2022-11-12 21:24:23,250  - transformer.py - INFO - successfully transform combined df to json
+2022-11-12 21:24:23,450  - transformer.py - INFO - now find the most rated goods in all product
+2022-11-12 21:24:49,227  - transformer.py - INFO - successfully transform most rated good df to json
+2022-11-12 21:24:49,277  - transformer.py - INFO - now finding the amount of review on each year
+2022-11-12 21:25:07,288  - transformer.py - INFO - successfully transform review each year df to json
+2022-11-12 21:25:07,318  - transformer.py - INFO - Extract CPU usage 64.7
+2022-11-12 21:25:07,318  - transformer.py - INFO - Extract part has took 97.01224184036255s
+2022-11-12 21:25:07,318  - transformer.py - INFO - You have sucessfully finished the transformation part, now move on to the load part

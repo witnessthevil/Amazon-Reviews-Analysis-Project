@@ -1,0 +1,485 @@
+[2022-10-18T09:56:28.188+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: spark-configer.task_2 manual__2022-10-18T09:56:23.184924+00:00 [queued]>
+[2022-10-18T09:56:28.243+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: spark-configer.task_2 manual__2022-10-18T09:56:23.184924+00:00 [queued]>
+[2022-10-18T09:56:28.250+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-18T09:56:28.254+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-10-18T09:56:28.264+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-18T09:56:28.306+0000] {taskinstance.py:1383} INFO - Executing <Task(BashOperator): task_2> on 2022-10-18 09:56:23.184924+00:00
+[2022-10-18T09:56:28.337+0000] {standard_task_runner.py:54} INFO - Started process 224 to run task
+[2022-10-18T09:56:28.346+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'spark-configer', 'task_2', 'manual__2022-10-18T09:56:23.184924+00:00', '--job-id', '88', '--raw', '--subdir', 'DAGS_FOLDER/dags.py', '--cfg-path', '/tmp/tmpm85xrbl4']
+[2022-10-18T09:56:28.349+0000] {standard_task_runner.py:83} INFO - Job 88: Subtask task_2
+[2022-10-18T09:56:28.362+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/dags.py
+[2022-10-18T09:56:28.734+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonVirtualenvDecoratedOperator): extract>, transform already registered for DAG: tutorial_taskflow_api_virtualenv
+[2022-10-18T09:56:28.735+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): transform>, extract already registered for DAG: tutorial_taskflow_api_virtualenv
+[2022-10-18T09:56:28.737+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonVirtualenvDecoratedOperator): extract>, transform already registered for DAG: tutorial_taskflow_api_virtualenv
+[2022-10-18T09:56:28.739+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): transform>, extract already registered for DAG: tutorial_taskflow_api_virtualenv
+[2022-10-18T09:56:28.741+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonVirtualenvDecoratedOperator): extract>, transform already registered for DAG: tutorial_taskflow_api_virtualenv
+[2022-10-18T09:56:28.741+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): transform>, extract already registered for DAG: tutorial_taskflow_api_virtualenv
+[2022-10-18T09:56:28.742+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonVirtualenvDecoratedOperator): extract>, transform already registered for DAG: tutorial_taskflow_api_virtualenv
+[2022-10-18T09:56:28.743+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): transform>, extract already registered for DAG: tutorial_taskflow_api_virtualenv
+[2022-10-18T09:56:28.744+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonVirtualenvDecoratedOperator): extract>, transform already registered for DAG: tutorial_taskflow_api_virtualenv
+[2022-10-18T09:56:28.745+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): transform>, extract already registered for DAG: tutorial_taskflow_api_virtualenv
+[2022-10-18T09:56:28.746+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonVirtualenvDecoratedOperator): extract>, transform already registered for DAG: tutorial_taskflow_api_virtualenv
+[2022-10-18T09:56:28.748+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): transform>, extract already registered for DAG: tutorial_taskflow_api_virtualenv
+[2022-10-18T09:56:28.751+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): transform>, load already registered for DAG: tutorial_taskflow_api_virtualenv
+[2022-10-18T09:56:28.753+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): load>, transform already registered for DAG: tutorial_taskflow_api_virtualenv
+[2022-10-18T09:56:28.755+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): transform>, load already registered for DAG: tutorial_taskflow_api_virtualenv
+[2022-10-18T09:56:28.757+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): load>, transform already registered for DAG: tutorial_taskflow_api_virtualenv
+[2022-10-18T09:56:28.759+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): transform>, load already registered for DAG: tutorial_taskflow_api_virtualenv
+[2022-10-18T09:56:28.759+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): load>, transform already registered for DAG: tutorial_taskflow_api_virtualenv
+[2022-10-18T09:56:28.760+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): transform>, load already registered for DAG: tutorial_taskflow_api_virtualenv
+[2022-10-18T09:56:28.762+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): load>, transform already registered for DAG: tutorial_taskflow_api_virtualenv
+[2022-10-18T09:56:28.762+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): transform>, load already registered for DAG: tutorial_taskflow_api_virtualenv
+[2022-10-18T09:56:28.763+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): load>, transform already registered for DAG: tutorial_taskflow_api_virtualenv
+[2022-10-18T09:56:28.763+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): transform>, load already registered for DAG: tutorial_taskflow_api_virtualenv
+[2022-10-18T09:56:28.764+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): load>, transform already registered for DAG: tutorial_taskflow_api_virtualenv
+[2022-10-18T09:56:28.770+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): create_entry_group>, delete_entry_group already registered for DAG: example_complex
+[2022-10-18T09:56:28.772+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): delete_entry_group>, create_entry_group already registered for DAG: example_complex
+[2022-10-18T09:56:28.773+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): create_entry_gcs>, delete_entry already registered for DAG: example_complex
+[2022-10-18T09:56:28.774+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): delete_entry>, create_entry_gcs already registered for DAG: example_complex
+[2022-10-18T09:56:28.775+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): create_tag>, delete_tag already registered for DAG: example_complex
+[2022-10-18T09:56:28.776+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): delete_tag>, create_tag already registered for DAG: example_complex
+[2022-10-18T09:56:28.789+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): print_the_context>, log_sql_query already registered for DAG: example_python_operator
+[2022-10-18T09:56:28.790+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): log_sql_query>, print_the_context already registered for DAG: example_python_operator
+[2022-10-18T09:56:28.791+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): print_the_context>, log_sql_query already registered for DAG: example_python_operator
+[2022-10-18T09:56:28.792+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): log_sql_query>, print_the_context already registered for DAG: example_python_operator
+[2022-10-18T09:56:28.794+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): print_the_context>, log_sql_query already registered for DAG: example_python_operator
+[2022-10-18T09:56:28.794+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): log_sql_query>, print_the_context already registered for DAG: example_python_operator
+[2022-10-18T09:56:28.796+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): print_the_context>, log_sql_query already registered for DAG: example_python_operator
+[2022-10-18T09:56:28.797+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): log_sql_query>, print_the_context already registered for DAG: example_python_operator
+[2022-10-18T09:56:29.009+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function.task_1>, task_group_function.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.012+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function.task_2>, task_group_function.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.013+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function.task_1>, task_group_function.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.015+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function.task_2>, task_group_function.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.019+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function.task_1>, task_group_function.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.021+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function.task_2>, task_group_function.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.021+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function.task_1>, task_group_function.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.022+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function.task_2>, task_group_function.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.023+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function.task_1>, task_group_function.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.024+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function.task_2>, task_group_function.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.025+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function.task_1>, task_group_function.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.026+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function.task_2>, task_group_function.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.027+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function.task_2>, task_group_function.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.032+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function.task_3>, task_group_function.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.033+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function.task_2>, task_group_function.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.036+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function.task_3>, task_group_function.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.037+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function.task_2>, task_group_function.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.039+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function.task_3>, task_group_function.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.046+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function.task_2>, task_group_function.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.047+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function.task_3>, task_group_function.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.048+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function.task_2>, task_group_function.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.052+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function.task_3>, task_group_function.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.052+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function.task_2>, task_group_function.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.053+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function.task_3>, task_group_function.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.058+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__1.task_1>, task_group_function__1.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.060+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__1.task_2>, task_group_function__1.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.061+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__1.task_1>, task_group_function__1.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.062+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__1.task_2>, task_group_function__1.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.063+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__1.task_1>, task_group_function__1.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.064+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__1.task_2>, task_group_function__1.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.066+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__1.task_1>, task_group_function__1.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.067+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__1.task_2>, task_group_function__1.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.067+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__1.task_1>, task_group_function__1.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.068+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__1.task_2>, task_group_function__1.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.068+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__1.task_1>, task_group_function__1.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.069+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__1.task_2>, task_group_function__1.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.070+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__1.task_2>, task_group_function__1.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.073+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__1.task_3>, task_group_function__1.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.076+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__1.task_2>, task_group_function__1.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.077+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__1.task_3>, task_group_function__1.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.078+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__1.task_2>, task_group_function__1.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.083+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__1.task_3>, task_group_function__1.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.083+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__1.task_2>, task_group_function__1.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.085+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__1.task_3>, task_group_function__1.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.086+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__1.task_2>, task_group_function__1.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.087+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__1.task_3>, task_group_function__1.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.088+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__1.task_2>, task_group_function__1.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.089+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__1.task_3>, task_group_function__1.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.090+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__2.task_1>, task_group_function__2.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.091+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__2.task_2>, task_group_function__2.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.091+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__2.task_1>, task_group_function__2.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.097+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__2.task_2>, task_group_function__2.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.098+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__2.task_1>, task_group_function__2.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.098+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__2.task_2>, task_group_function__2.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.099+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__2.task_1>, task_group_function__2.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.100+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__2.task_2>, task_group_function__2.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.102+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__2.task_1>, task_group_function__2.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.103+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__2.task_2>, task_group_function__2.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.104+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__2.task_1>, task_group_function__2.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.104+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__2.task_2>, task_group_function__2.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.105+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__2.task_2>, task_group_function__2.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.106+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__2.task_3>, task_group_function__2.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.106+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__2.task_2>, task_group_function__2.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.109+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__2.task_3>, task_group_function__2.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.114+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__2.task_2>, task_group_function__2.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.116+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__2.task_3>, task_group_function__2.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.117+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__2.task_2>, task_group_function__2.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.118+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__2.task_3>, task_group_function__2.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.119+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__2.task_2>, task_group_function__2.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.120+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__2.task_3>, task_group_function__2.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.121+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__2.task_2>, task_group_function__2.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.122+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__2.task_3>, task_group_function__2.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.123+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__3.task_1>, task_group_function__3.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.124+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__3.task_2>, task_group_function__3.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.126+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__3.task_1>, task_group_function__3.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.127+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__3.task_2>, task_group_function__3.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.130+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__3.task_1>, task_group_function__3.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.130+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__3.task_2>, task_group_function__3.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.131+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__3.task_1>, task_group_function__3.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.131+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__3.task_2>, task_group_function__3.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.134+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__3.task_1>, task_group_function__3.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.134+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__3.task_2>, task_group_function__3.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.135+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__3.task_1>, task_group_function__3.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.136+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__3.task_2>, task_group_function__3.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.137+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__3.task_2>, task_group_function__3.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.143+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__3.task_3>, task_group_function__3.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.143+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__3.task_2>, task_group_function__3.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.144+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__3.task_3>, task_group_function__3.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.145+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__3.task_2>, task_group_function__3.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.145+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__3.task_3>, task_group_function__3.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.146+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__3.task_2>, task_group_function__3.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.146+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__3.task_3>, task_group_function__3.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.150+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__3.task_2>, task_group_function__3.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.150+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__3.task_3>, task_group_function__3.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.151+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__3.task_2>, task_group_function__3.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.153+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__3.task_3>, task_group_function__3.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.155+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__4.task_1>, task_group_function__4.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.156+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__4.task_2>, task_group_function__4.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.157+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__4.task_1>, task_group_function__4.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.161+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__4.task_2>, task_group_function__4.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.163+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__4.task_1>, task_group_function__4.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.168+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__4.task_2>, task_group_function__4.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.169+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__4.task_1>, task_group_function__4.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.169+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__4.task_2>, task_group_function__4.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.171+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__4.task_1>, task_group_function__4.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.171+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__4.task_2>, task_group_function__4.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.172+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__4.task_1>, task_group_function__4.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.173+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__4.task_2>, task_group_function__4.task_1 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.174+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__4.task_2>, task_group_function__4.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.176+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__4.task_3>, task_group_function__4.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.179+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__4.task_2>, task_group_function__4.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.179+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__4.task_3>, task_group_function__4.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.180+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__4.task_2>, task_group_function__4.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.181+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__4.task_3>, task_group_function__4.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.184+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__4.task_2>, task_group_function__4.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.185+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__4.task_3>, task_group_function__4.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.191+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__4.task_2>, task_group_function__4.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.193+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__4.task_3>, task_group_function__4.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.194+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__4.task_2>, task_group_function__4.task_3 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.213+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): task_group_function__4.task_3>, task_group_function__4.task_2 already registered for DAG: example_task_group_decorator
+[2022-10-18T09:56:29.246+0000] {taskmixin.py:205} WARNING - Dependency <Task(GetRequestOperator): get_ip>, prepare_email already registered for DAG: example_dag_decorator
+[2022-10-18T09:56:29.247+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): prepare_email>, get_ip already registered for DAG: example_dag_decorator
+[2022-10-18T09:56:29.248+0000] {taskmixin.py:205} WARNING - Dependency <Task(GetRequestOperator): get_ip>, prepare_email already registered for DAG: example_dag_decorator
+[2022-10-18T09:56:29.251+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): prepare_email>, get_ip already registered for DAG: example_dag_decorator
+[2022-10-18T09:56:29.255+0000] {taskmixin.py:205} WARNING - Dependency <Task(GetRequestOperator): get_ip>, prepare_email already registered for DAG: example_dag_decorator
+[2022-10-18T09:56:29.257+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): prepare_email>, get_ip already registered for DAG: example_dag_decorator
+[2022-10-18T09:56:29.260+0000] {taskmixin.py:205} WARNING - Dependency <Task(GetRequestOperator): get_ip>, prepare_email already registered for DAG: example_dag_decorator
+[2022-10-18T09:56:29.261+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): prepare_email>, get_ip already registered for DAG: example_dag_decorator
+[2022-10-18T09:56:29.261+0000] {taskmixin.py:205} WARNING - Dependency <Task(GetRequestOperator): get_ip>, prepare_email already registered for DAG: example_dag_decorator
+[2022-10-18T09:56:29.262+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): prepare_email>, get_ip already registered for DAG: example_dag_decorator
+[2022-10-18T09:56:29.263+0000] {taskmixin.py:205} WARNING - Dependency <Task(GetRequestOperator): get_ip>, prepare_email already registered for DAG: example_dag_decorator
+[2022-10-18T09:56:29.264+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): prepare_email>, get_ip already registered for DAG: example_dag_decorator
+[2022-10-18T09:56:29.265+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): prepare_email>, send_email already registered for DAG: example_dag_decorator
+[2022-10-18T09:56:29.265+0000] {taskmixin.py:205} WARNING - Dependency <Task(EmailOperator): send_email>, prepare_email already registered for DAG: example_dag_decorator
+[2022-10-18T09:56:29.266+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): prepare_email>, send_email already registered for DAG: example_dag_decorator
+[2022-10-18T09:56:29.268+0000] {taskmixin.py:205} WARNING - Dependency <Task(EmailOperator): send_email>, prepare_email already registered for DAG: example_dag_decorator
+[2022-10-18T09:56:29.268+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): prepare_email>, send_email already registered for DAG: example_dag_decorator
+[2022-10-18T09:56:29.269+0000] {taskmixin.py:205} WARNING - Dependency <Task(EmailOperator): send_email>, prepare_email already registered for DAG: example_dag_decorator
+[2022-10-18T09:56:29.270+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): prepare_email>, send_email already registered for DAG: example_dag_decorator
+[2022-10-18T09:56:29.271+0000] {taskmixin.py:205} WARNING - Dependency <Task(EmailOperator): send_email>, prepare_email already registered for DAG: example_dag_decorator
+[2022-10-18T09:56:29.271+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): prepare_email>, send_email already registered for DAG: example_dag_decorator
+[2022-10-18T09:56:29.274+0000] {taskmixin.py:205} WARNING - Dependency <Task(EmailOperator): send_email>, prepare_email already registered for DAG: example_dag_decorator
+[2022-10-18T09:56:29.274+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): prepare_email>, send_email already registered for DAG: example_dag_decorator
+[2022-10-18T09:56:29.277+0000] {taskmixin.py:205} WARNING - Dependency <Task(EmailOperator): send_email>, prepare_email already registered for DAG: example_dag_decorator
+[2022-10-18T09:56:29.472+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): push_by_returning>, puller already registered for DAG: example_xcom
+[2022-10-18T09:56:29.474+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): puller>, push_by_returning already registered for DAG: example_xcom
+[2022-10-18T09:56:29.475+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): push_by_returning>, puller already registered for DAG: example_xcom
+[2022-10-18T09:56:29.476+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): puller>, push_by_returning already registered for DAG: example_xcom
+[2022-10-18T09:56:29.476+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): push_by_returning>, puller already registered for DAG: example_xcom
+[2022-10-18T09:56:29.478+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): puller>, push_by_returning already registered for DAG: example_xcom
+[2022-10-18T09:56:29.479+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): push_by_returning>, puller already registered for DAG: example_xcom
+[2022-10-18T09:56:29.481+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): puller>, push_by_returning already registered for DAG: example_xcom
+[2022-10-18T09:56:29.482+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): push_by_returning>, puller already registered for DAG: example_xcom
+[2022-10-18T09:56:29.483+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): puller>, push_by_returning already registered for DAG: example_xcom
+[2022-10-18T09:56:29.483+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): push_by_returning>, puller already registered for DAG: example_xcom
+[2022-10-18T09:56:29.487+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): puller>, push_by_returning already registered for DAG: example_xcom
+[2022-10-18T09:56:29.493+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): extract>, transform already registered for DAG: tutorial_taskflow_api
+[2022-10-18T09:56:29.493+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): transform>, extract already registered for DAG: tutorial_taskflow_api
+[2022-10-18T09:56:29.494+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): extract>, transform already registered for DAG: tutorial_taskflow_api
+[2022-10-18T09:56:29.495+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): transform>, extract already registered for DAG: tutorial_taskflow_api
+[2022-10-18T09:56:29.496+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): extract>, transform already registered for DAG: tutorial_taskflow_api
+[2022-10-18T09:56:29.496+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): transform>, extract already registered for DAG: tutorial_taskflow_api
+[2022-10-18T09:56:29.499+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): extract>, transform already registered for DAG: tutorial_taskflow_api
+[2022-10-18T09:56:29.500+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): transform>, extract already registered for DAG: tutorial_taskflow_api
+[2022-10-18T09:56:29.500+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): extract>, transform already registered for DAG: tutorial_taskflow_api
+[2022-10-18T09:56:29.504+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): transform>, extract already registered for DAG: tutorial_taskflow_api
+[2022-10-18T09:56:29.504+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): extract>, transform already registered for DAG: tutorial_taskflow_api
+[2022-10-18T09:56:29.505+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): transform>, extract already registered for DAG: tutorial_taskflow_api
+[2022-10-18T09:56:29.506+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): transform>, load already registered for DAG: tutorial_taskflow_api
+[2022-10-18T09:56:29.507+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): load>, transform already registered for DAG: tutorial_taskflow_api
+[2022-10-18T09:56:29.507+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): transform>, load already registered for DAG: tutorial_taskflow_api
+[2022-10-18T09:56:29.508+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): load>, transform already registered for DAG: tutorial_taskflow_api
+[2022-10-18T09:56:29.509+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): transform>, load already registered for DAG: tutorial_taskflow_api
+[2022-10-18T09:56:29.509+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): load>, transform already registered for DAG: tutorial_taskflow_api
+[2022-10-18T09:56:29.510+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): transform>, load already registered for DAG: tutorial_taskflow_api
+[2022-10-18T09:56:29.511+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): load>, transform already registered for DAG: tutorial_taskflow_api
+[2022-10-18T09:56:29.511+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): transform>, load already registered for DAG: tutorial_taskflow_api
+[2022-10-18T09:56:29.512+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): load>, transform already registered for DAG: tutorial_taskflow_api
+[2022-10-18T09:56:29.516+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): transform>, load already registered for DAG: tutorial_taskflow_api
+[2022-10-18T09:56:29.518+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): load>, transform already registered for DAG: tutorial_taskflow_api
+[2022-10-18T09:56:29.523+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): generate_value>, print_value already registered for DAG: example_xcom_args
+[2022-10-18T09:56:29.525+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): print_value>, generate_value already registered for DAG: example_xcom_args
+[2022-10-18T09:56:29.526+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): generate_value>, print_value already registered for DAG: example_xcom_args
+[2022-10-18T09:56:29.526+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): print_value>, generate_value already registered for DAG: example_xcom_args
+[2022-10-18T09:56:29.559+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): generate_value>, print_value already registered for DAG: example_xcom_args
+[2022-10-18T09:56:29.561+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): print_value>, generate_value already registered for DAG: example_xcom_args
+[2022-10-18T09:56:29.598+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): generate_value>, print_value already registered for DAG: example_xcom_args
+[2022-10-18T09:56:29.599+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): print_value>, generate_value already registered for DAG: example_xcom_args
+[2022-10-18T09:56:29.600+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): generate_value>, print_value already registered for DAG: example_xcom_args
+[2022-10-18T09:56:29.632+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): print_value>, generate_value already registered for DAG: example_xcom_args
+[2022-10-18T09:56:29.633+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): generate_value>, print_value already registered for DAG: example_xcom_args
+[2022-10-18T09:56:29.665+0000] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): print_value>, generate_value already registered for DAG: example_xcom_args
+[2022-10-18T09:56:30.229+0000] {task_command.py:384} INFO - Running <TaskInstance: spark-configer.task_2 manual__2022-10-18T09:56:23.184924+00:00 [running]> on host 22920f4e909f
+[2022-10-18T09:56:30.449+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=spark-configer
+AIRFLOW_CTX_TASK_ID=task_2
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-18T09:56:23.184924+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-18T09:56:23.184924+00:00
+[2022-10-18T09:56:30.461+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2022-10-18T09:56:30.468+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'spark-submit /opt/***/tasks/transformer.py']
+[2022-10-18T09:56:30.509+0000] {subprocess.py:86} INFO - Output:
+[2022-10-18T09:56:49.158+0000] {subprocess.py:93} INFO - 22/10/18 09:56:48 INFO SparkContext: Running Spark version 3.3.0
+[2022-10-18T09:56:49.717+0000] {subprocess.py:93} INFO - 22/10/18 09:56:49 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2022-10-18T09:56:50.024+0000] {subprocess.py:93} INFO - 22/10/18 09:56:50 INFO ResourceUtils: ==============================================================
+[2022-10-18T09:56:50.045+0000] {subprocess.py:93} INFO - 22/10/18 09:56:50 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2022-10-18T09:56:50.049+0000] {subprocess.py:93} INFO - 22/10/18 09:56:50 INFO ResourceUtils: ==============================================================
+[2022-10-18T09:56:50.050+0000] {subprocess.py:93} INFO - 22/10/18 09:56:50 INFO SparkContext: Submitted application: realityisdead
+[2022-10-18T09:56:50.053+0000] {subprocess.py:93} INFO - 22/10/18 09:56:50 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2022-10-18T09:56:50.072+0000] {subprocess.py:93} INFO - 22/10/18 09:56:50 INFO ResourceProfile: Limiting resource is cpu
+[2022-10-18T09:56:50.073+0000] {subprocess.py:93} INFO - 22/10/18 09:56:50 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2022-10-18T09:56:50.138+0000] {subprocess.py:93} INFO - 22/10/18 09:56:50 INFO SecurityManager: Changing view acls to: ***
+[2022-10-18T09:56:50.140+0000] {subprocess.py:93} INFO - 22/10/18 09:56:50 INFO SecurityManager: Changing modify acls to: ***
+[2022-10-18T09:56:50.141+0000] {subprocess.py:93} INFO - 22/10/18 09:56:50 INFO SecurityManager: Changing view acls groups to:
+[2022-10-18T09:56:50.142+0000] {subprocess.py:93} INFO - 22/10/18 09:56:50 INFO SecurityManager: Changing modify acls groups to:
+[2022-10-18T09:56:50.143+0000] {subprocess.py:93} INFO - 22/10/18 09:56:50 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(***); groups with view permissions: Set(); users  with modify permissions: Set(***); groups with modify permissions: Set()
+[2022-10-18T09:56:50.413+0000] {subprocess.py:93} INFO - 22/10/18 09:56:50 INFO Utils: Successfully started service 'sparkDriver' on port 40109.
+[2022-10-18T09:56:50.484+0000] {subprocess.py:93} INFO - 22/10/18 09:56:50 INFO SparkEnv: Registering MapOutputTracker
+[2022-10-18T09:56:50.533+0000] {subprocess.py:93} INFO - 22/10/18 09:56:50 INFO SparkEnv: Registering BlockManagerMaster
+[2022-10-18T09:56:50.562+0000] {subprocess.py:93} INFO - 22/10/18 09:56:50 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2022-10-18T09:56:50.565+0000] {subprocess.py:93} INFO - 22/10/18 09:56:50 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2022-10-18T09:56:50.567+0000] {subprocess.py:93} INFO - 22/10/18 09:56:50 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2022-10-18T09:56:50.609+0000] {subprocess.py:93} INFO - 22/10/18 09:56:50 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-05d5558f-fc8a-4ea5-a7ab-47b5375884a9
+[2022-10-18T09:56:50.632+0000] {subprocess.py:93} INFO - 22/10/18 09:56:50 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+[2022-10-18T09:56:50.657+0000] {subprocess.py:93} INFO - 22/10/18 09:56:50 INFO SparkEnv: Registering OutputCommitCoordinator
+[2022-10-18T09:56:51.250+0000] {subprocess.py:93} INFO - 22/10/18 09:56:51 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2022-10-18T09:56:51.399+0000] {subprocess.py:93} INFO - 22/10/18 09:56:51 INFO Executor: Starting executor ID driver on host 22920f4e909f
+[2022-10-18T09:56:51.416+0000] {subprocess.py:93} INFO - 22/10/18 09:56:51 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+[2022-10-18T09:56:51.445+0000] {subprocess.py:93} INFO - 22/10/18 09:56:51 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 41109.
+[2022-10-18T09:56:51.447+0000] {subprocess.py:93} INFO - 22/10/18 09:56:51 INFO NettyBlockTransferService: Server created on 22920f4e909f:41109
+[2022-10-18T09:56:51.450+0000] {subprocess.py:93} INFO - 22/10/18 09:56:51 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2022-10-18T09:56:51.465+0000] {subprocess.py:93} INFO - 22/10/18 09:56:51 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 22920f4e909f, 41109, None)
+[2022-10-18T09:56:51.484+0000] {subprocess.py:93} INFO - 22/10/18 09:56:51 INFO BlockManagerMasterEndpoint: Registering block manager 22920f4e909f:41109 with 434.4 MiB RAM, BlockManagerId(driver, 22920f4e909f, 41109, None)
+[2022-10-18T09:56:51.492+0000] {subprocess.py:93} INFO - 22/10/18 09:56:51 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 22920f4e909f, 41109, None)
+[2022-10-18T09:56:51.494+0000] {subprocess.py:93} INFO - 22/10/18 09:56:51 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 22920f4e909f, 41109, None)
+[2022-10-18T09:56:55.974+0000] {subprocess.py:93} INFO - 22/10/18 09:56:55 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+[2022-10-18T09:56:56.010+0000] {subprocess.py:93} INFO - 22/10/18 09:56:56 INFO SharedState: Warehouse path is 'file:/tmp/***tmpqchu81uq/spark-warehouse'.
+[2022-10-18T09:56:58.108+0000] {subprocess.py:93} INFO - 22/10/18 09:56:58 INFO InMemoryFileIndex: It took 178 ms to list leaf files for 1 paths.
+[2022-10-18T09:56:58.259+0000] {subprocess.py:93} INFO - 22/10/18 09:56:58 INFO InMemoryFileIndex: It took 6 ms to list leaf files for 1 paths.
+[2022-10-18T09:57:03.043+0000] {subprocess.py:93} INFO - 22/10/18 09:57:03 INFO FileSourceStrategy: Pushed Filters:
+[2022-10-18T09:57:03.069+0000] {subprocess.py:93} INFO - 22/10/18 09:57:03 INFO FileSourceStrategy: Post-Scan Filters:
+[2022-10-18T09:57:03.076+0000] {subprocess.py:93} INFO - 22/10/18 09:57:03 INFO FileSourceStrategy: Output Data Schema: struct<value: string>
+[2022-10-18T09:57:03.648+0000] {subprocess.py:93} INFO - 22/10/18 09:57:03 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 199.3 KiB, free 434.2 MiB)
+[2022-10-18T09:57:04.128+0000] {subprocess.py:93} INFO - 22/10/18 09:57:04 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 34.0 KiB, free 434.2 MiB)
+[2022-10-18T09:57:04.154+0000] {subprocess.py:93} INFO - 22/10/18 09:57:04 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 22920f4e909f:41109 (size: 34.0 KiB, free: 434.4 MiB)
+[2022-10-18T09:57:04.168+0000] {subprocess.py:93} INFO - 22/10/18 09:57:04 INFO SparkContext: Created broadcast 0 from json at NativeMethodAccessorImpl.java:0
+[2022-10-18T09:57:04.190+0000] {subprocess.py:93} INFO - 22/10/18 09:57:04 INFO FileSourceScanExec: Planning scan with bin packing, max size: 25527129 bytes, open cost is considered as scanning 4194304 bytes.
+[2022-10-18T09:57:04.433+0000] {subprocess.py:93} INFO - 22/10/18 09:57:04 INFO SparkContext: Starting job: json at NativeMethodAccessorImpl.java:0
+[2022-10-18T09:57:04.456+0000] {subprocess.py:93} INFO - 22/10/18 09:57:04 INFO DAGScheduler: Got job 0 (json at NativeMethodAccessorImpl.java:0) with 4 output partitions
+[2022-10-18T09:57:04.460+0000] {subprocess.py:93} INFO - 22/10/18 09:57:04 INFO DAGScheduler: Final stage: ResultStage 0 (json at NativeMethodAccessorImpl.java:0)
+[2022-10-18T09:57:04.463+0000] {subprocess.py:93} INFO - 22/10/18 09:57:04 INFO DAGScheduler: Parents of final stage: List()
+[2022-10-18T09:57:04.465+0000] {subprocess.py:93} INFO - 22/10/18 09:57:04 INFO DAGScheduler: Missing parents: List()
+[2022-10-18T09:57:04.467+0000] {subprocess.py:93} INFO - 22/10/18 09:57:04 INFO DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[3] at json at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2022-10-18T09:57:04.578+0000] {subprocess.py:93} INFO - 22/10/18 09:57:04 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 14.4 KiB, free 434.2 MiB)
+[2022-10-18T09:57:04.582+0000] {subprocess.py:93} INFO - 22/10/18 09:57:04 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 7.0 KiB, free 434.2 MiB)
+[2022-10-18T09:57:04.587+0000] {subprocess.py:93} INFO - 22/10/18 09:57:04 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on 22920f4e909f:41109 (size: 7.0 KiB, free: 434.4 MiB)
+[2022-10-18T09:57:04.591+0000] {subprocess.py:93} INFO - 22/10/18 09:57:04 INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1513
+[2022-10-18T09:57:04.600+0000] {subprocess.py:93} INFO - 22/10/18 09:57:04 INFO DAGScheduler: Submitting 4 missing tasks from ResultStage 0 (MapPartitionsRDD[3] at json at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0, 1, 2, 3))
+[2022-10-18T09:57:04.620+0000] {subprocess.py:93} INFO - 22/10/18 09:57:04 INFO TaskSchedulerImpl: Adding task set 0.0 with 4 tasks resource profile 0
+[2022-10-18T09:57:04.654+0000] {subprocess.py:93} INFO - 22/10/18 09:57:04 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0) (22920f4e909f, executor driver, partition 0, PROCESS_LOCAL, 4921 bytes) taskResourceAssignments Map()
+[2022-10-18T09:57:04.661+0000] {subprocess.py:93} INFO - 22/10/18 09:57:04 INFO TaskSetManager: Starting task 1.0 in stage 0.0 (TID 1) (22920f4e909f, executor driver, partition 1, PROCESS_LOCAL, 4921 bytes) taskResourceAssignments Map()
+[2022-10-18T09:57:04.663+0000] {subprocess.py:93} INFO - 22/10/18 09:57:04 INFO TaskSetManager: Starting task 2.0 in stage 0.0 (TID 2) (22920f4e909f, executor driver, partition 2, PROCESS_LOCAL, 4921 bytes) taskResourceAssignments Map()
+[2022-10-18T09:57:04.667+0000] {subprocess.py:93} INFO - 22/10/18 09:57:04 INFO TaskSetManager: Starting task 3.0 in stage 0.0 (TID 3) (22920f4e909f, executor driver, partition 3, PROCESS_LOCAL, 4921 bytes) taskResourceAssignments Map()
+[2022-10-18T09:57:04.726+0000] {subprocess.py:93} INFO - 22/10/18 09:57:04 INFO Executor: Running task 2.0 in stage 0.0 (TID 2)
+[2022-10-18T09:57:04.730+0000] {subprocess.py:93} INFO - 22/10/18 09:57:04 INFO Executor: Running task 1.0 in stage 0.0 (TID 1)
+[2022-10-18T09:57:04.739+0000] {subprocess.py:93} INFO - 22/10/18 09:57:04 INFO Executor: Running task 3.0 in stage 0.0 (TID 3)
+[2022-10-18T09:57:04.740+0000] {subprocess.py:93} INFO - 22/10/18 09:57:04 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+[2022-10-18T09:57:06.603+0000] {subprocess.py:93} INFO - 22/10/18 09:57:06 INFO FileScanRDD: Reading File path: file:///opt/***/files/product_Video_Games.json, range: 51054258-76581387, partition values: [empty row]
+[2022-10-18T09:57:06.613+0000] {subprocess.py:93} INFO - 22/10/18 09:57:06 INFO FileScanRDD: Reading File path: file:///opt/***/files/product_Video_Games.json, range: 76581387-97914215, partition values: [empty row]
+[2022-10-18T09:57:06.617+0000] {subprocess.py:93} INFO - 22/10/18 09:57:06 INFO FileScanRDD: Reading File path: file:///opt/***/files/product_Video_Games.json, range: 25527129-51054258, partition values: [empty row]
+[2022-10-18T09:57:06.625+0000] {subprocess.py:93} INFO - 22/10/18 09:57:06 INFO FileScanRDD: Reading File path: file:///opt/***/files/product_Video_Games.json, range: 0-25527129, partition values: [empty row]
+[2022-10-18T09:57:08.387+0000] {subprocess.py:93} INFO - 22/10/18 09:57:08 INFO CodeGenerator: Code generated in 1649.029876 ms
+[2022-10-18T09:57:17.497+0000] {subprocess.py:93} INFO - 22/10/18 09:57:17 INFO AsyncEventQueue: Process of event SparkListenerExecutorMetricsUpdate(driver,WrappedArray((0,0,0,Vector(AccumulableInfo(10,None,Some(124),None,false,true,None), AccumulableInfo(26,None,Some(1703936),None,false,true,None), AccumulableInfo(27,None,Some(1253),None,false,true,None), AccumulableInfo(1,Some(number of output rows),Some(1253),None,true,true,Some(sql)))), (1,0,0,Vector(AccumulableInfo(10,None,Some(124),None,false,true,None), AccumulableInfo(26,None,Some(1703936),None,false,true,None), AccumulableInfo(27,None,Some(1039),None,false,true,None), AccumulableInfo(1,Some(number of output rows),Some(1039),None,true,true,Some(sql)))), (2,0,0,Vector(AccumulableInfo(10,None,Some(124),None,false,true,None), AccumulableInfo(26,None,Some(65536),None,false,true,None), AccumulableInfo(27,None,Some(960),None,false,true,None), AccumulableInfo(1,Some(number of output rows),Some(960),None,true,true,Some(sql)))), (3,0,0,Vector(AccumulableInfo(10,None,Some(124),None,false,true,None), AccumulableInfo(26,None,Some(1966080),None,false,true,None), AccumulableInfo(27,None,Some(1008),None,false,true,None), AccumulableInfo(1,Some(number of output rows),Some(1008),None,true,true,Some(sql))))),Map((0,0) -> org.apache.spark.executor.ExecutorMetrics@129de23d)) by listener AppStatusListener took 1.5549365s.
+[2022-10-18T09:57:29.751+0000] {subprocess.py:93} INFO - 22/10/18 09:57:29 INFO Executor: Finished task 1.0 in stage 0.0 (TID 1). 2417 bytes result sent to driver
+[2022-10-18T09:57:29.812+0000] {subprocess.py:93} INFO - 22/10/18 09:57:29 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 2417 bytes result sent to driver
+[2022-10-18T09:57:29.814+0000] {subprocess.py:93} INFO - 22/10/18 09:57:29 INFO Executor: Finished task 3.0 in stage 0.0 (TID 3). 2417 bytes result sent to driver
+[2022-10-18T09:57:29.821+0000] {subprocess.py:93} INFO - 22/10/18 09:57:29 INFO Executor: Finished task 2.0 in stage 0.0 (TID 2). 2417 bytes result sent to driver
+[2022-10-18T09:57:29.975+0000] {subprocess.py:93} INFO - 22/10/18 09:57:29 INFO TaskSetManager: Finished task 2.0 in stage 0.0 (TID 2) in 25312 ms on 22920f4e909f (executor driver) (1/4)
+[2022-10-18T09:57:29.990+0000] {subprocess.py:93} INFO - 22/10/18 09:57:29 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 25343 ms on 22920f4e909f (executor driver) (2/4)
+[2022-10-18T09:57:29.995+0000] {subprocess.py:93} INFO - 22/10/18 09:57:29 INFO TaskSetManager: Finished task 3.0 in stage 0.0 (TID 3) in 25336 ms on 22920f4e909f (executor driver) (3/4)
+[2022-10-18T09:57:30.009+0000] {subprocess.py:93} INFO - 22/10/18 09:57:30 INFO TaskSetManager: Finished task 1.0 in stage 0.0 (TID 1) in 25351 ms on 22920f4e909f (executor driver) (4/4)
+[2022-10-18T09:57:30.014+0000] {subprocess.py:93} INFO - 22/10/18 09:57:30 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool
+[2022-10-18T09:57:30.156+0000] {subprocess.py:93} INFO - 22/10/18 09:57:30 INFO DAGScheduler: ResultStage 0 (json at NativeMethodAccessorImpl.java:0) finished in 25.588 s
+[2022-10-18T09:57:30.615+0000] {subprocess.py:93} INFO - 22/10/18 09:57:30 INFO DAGScheduler: Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+[2022-10-18T09:57:32.703+0000] {subprocess.py:93} INFO - 22/10/18 09:57:30 INFO TaskSchedulerImpl: Killing all running tasks in stage 0: Stage finished
+[2022-10-18T09:57:32.760+0000] {subprocess.py:93} INFO - 22/10/18 09:57:30 INFO DAGScheduler: Job 0 finished: json at NativeMethodAccessorImpl.java:0, took 26.227524 s
+[2022-10-18T09:57:34.806+0000] {subprocess.py:93} INFO - 22/10/18 09:57:34 INFO InMemoryFileIndex: It took 47 ms to list leaf files for 1 paths.
+[2022-10-18T09:57:34.882+0000] {subprocess.py:93} INFO - 22/10/18 09:57:34 INFO InMemoryFileIndex: It took 19 ms to list leaf files for 1 paths.
+[2022-10-18T09:57:36.894+0000] {subprocess.py:93} INFO - 22/10/18 09:57:36 INFO FileSourceStrategy: Pushed Filters:
+[2022-10-18T09:57:36.905+0000] {subprocess.py:93} INFO - 22/10/18 09:57:36 INFO FileSourceStrategy: Post-Scan Filters:
+[2022-10-18T09:57:36.909+0000] {subprocess.py:93} INFO - 22/10/18 09:57:36 INFO FileSourceStrategy: Output Data Schema: struct<value: string>
+[2022-10-18T09:57:37.017+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 199.3 KiB, free 434.0 MiB)
+[2022-10-18T09:57:37.208+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 34.0 KiB, free 433.9 MiB)
+[2022-10-18T09:57:37.214+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on 22920f4e909f:41109 (size: 34.0 KiB, free: 434.3 MiB)
+[2022-10-18T09:57:37.223+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO SparkContext: Created broadcast 2 from json at NativeMethodAccessorImpl.java:0
+[2022-10-18T09:57:37.233+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO FileSourceScanExec: Planning scan with bin packing, max size: 19667774 bytes, open cost is considered as scanning 4194304 bytes.
+[2022-10-18T09:57:37.338+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO SparkContext: Starting job: json at NativeMethodAccessorImpl.java:0
+[2022-10-18T09:57:37.349+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO DAGScheduler: Got job 1 (json at NativeMethodAccessorImpl.java:0) with 4 output partitions
+[2022-10-18T09:57:37.355+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO DAGScheduler: Final stage: ResultStage 1 (json at NativeMethodAccessorImpl.java:0)
+[2022-10-18T09:57:37.359+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO DAGScheduler: Parents of final stage: List()
+[2022-10-18T09:57:37.369+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO DAGScheduler: Missing parents: List()
+[2022-10-18T09:57:37.396+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO DAGScheduler: Submitting ResultStage 1 (MapPartitionsRDD[7] at json at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2022-10-18T09:57:37.428+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 14.4 KiB, free 433.9 MiB)
+[2022-10-18T09:57:37.470+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 7.0 KiB, free 433.9 MiB)
+[2022-10-18T09:57:37.474+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on 22920f4e909f:41109 (size: 7.0 KiB, free: 434.3 MiB)
+[2022-10-18T09:57:37.482+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO SparkContext: Created broadcast 3 from broadcast at DAGScheduler.scala:1513
+[2022-10-18T09:57:37.485+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO DAGScheduler: Submitting 4 missing tasks from ResultStage 1 (MapPartitionsRDD[7] at json at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0, 1, 2, 3))
+[2022-10-18T09:57:37.487+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO TaskSchedulerImpl: Adding task set 1.0 with 4 tasks resource profile 0
+[2022-10-18T09:57:37.507+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 4) (22920f4e909f, executor driver, partition 0, PROCESS_LOCAL, 4922 bytes) taskResourceAssignments Map()
+[2022-10-18T09:57:37.510+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO TaskSetManager: Starting task 1.0 in stage 1.0 (TID 5) (22920f4e909f, executor driver, partition 1, PROCESS_LOCAL, 4922 bytes) taskResourceAssignments Map()
+[2022-10-18T09:57:37.513+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO TaskSetManager: Starting task 2.0 in stage 1.0 (TID 6) (22920f4e909f, executor driver, partition 2, PROCESS_LOCAL, 4922 bytes) taskResourceAssignments Map()
+[2022-10-18T09:57:37.518+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO TaskSetManager: Starting task 3.0 in stage 1.0 (TID 7) (22920f4e909f, executor driver, partition 3, PROCESS_LOCAL, 4922 bytes) taskResourceAssignments Map()
+[2022-10-18T09:57:37.526+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO Executor: Running task 0.0 in stage 1.0 (TID 4)
+[2022-10-18T09:57:37.548+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO Executor: Running task 1.0 in stage 1.0 (TID 5)
+[2022-10-18T09:57:37.565+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO Executor: Running task 3.0 in stage 1.0 (TID 7)
+[2022-10-18T09:57:37.569+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO Executor: Running task 2.0 in stage 1.0 (TID 6)
+[2022-10-18T09:57:37.605+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO FileScanRDD: Reading File path: file:///opt/***/files/metadata_Video_Games.json, range: 0-19667774, partition values: [empty row]
+[2022-10-18T09:57:37.619+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO FileScanRDD: Reading File path: file:///opt/***/files/metadata_Video_Games.json, range: 39335548-59003322, partition values: [empty row]
+[2022-10-18T09:57:37.646+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO FileScanRDD: Reading File path: file:///opt/***/files/metadata_Video_Games.json, range: 59003322-74476795, partition values: [empty row]
+[2022-10-18T09:57:37.652+0000] {subprocess.py:93} INFO - 22/10/18 09:57:37 INFO FileScanRDD: Reading File path: file:///opt/***/files/metadata_Video_Games.json, range: 19667774-39335548, partition values: [empty row]
+[2022-10-18T09:57:46.864+0000] {subprocess.py:93} INFO - 22/10/18 09:57:46 INFO Executor: Finished task 3.0 in stage 1.0 (TID 7). 3252 bytes result sent to driver
+[2022-10-18T09:57:46.924+0000] {subprocess.py:93} INFO - 22/10/18 09:57:46 INFO TaskSetManager: Finished task 3.0 in stage 1.0 (TID 7) in 9409 ms on 22920f4e909f (executor driver) (1/4)
+[2022-10-18T09:57:47.306+0000] {subprocess.py:93} INFO - 22/10/18 09:57:47 INFO Executor: Finished task 1.0 in stage 1.0 (TID 5). 3302 bytes result sent to driver
+[2022-10-18T09:57:47.307+0000] {subprocess.py:93} INFO - 22/10/18 09:57:47 INFO Executor: Finished task 2.0 in stage 1.0 (TID 6). 3183 bytes result sent to driver
+[2022-10-18T09:57:47.308+0000] {subprocess.py:93} INFO - 22/10/18 09:57:47 INFO Executor: Finished task 0.0 in stage 1.0 (TID 4). 2903 bytes result sent to driver
+[2022-10-18T09:57:47.316+0000] {subprocess.py:93} INFO - 22/10/18 09:57:47 INFO TaskSetManager: Finished task 2.0 in stage 1.0 (TID 6) in 9803 ms on 22920f4e909f (executor driver) (2/4)
+[2022-10-18T09:57:47.319+0000] {subprocess.py:93} INFO - 22/10/18 09:57:47 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 4) in 9817 ms on 22920f4e909f (executor driver) (3/4)
+[2022-10-18T09:57:47.323+0000] {subprocess.py:93} INFO - 22/10/18 09:57:47 INFO TaskSetManager: Finished task 1.0 in stage 1.0 (TID 5) in 9814 ms on 22920f4e909f (executor driver) (4/4)
+[2022-10-18T09:57:47.324+0000] {subprocess.py:93} INFO - 22/10/18 09:57:47 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool
+[2022-10-18T09:57:47.331+0000] {subprocess.py:93} INFO - 22/10/18 09:57:47 INFO DAGScheduler: ResultStage 1 (json at NativeMethodAccessorImpl.java:0) finished in 9.916 s
+[2022-10-18T09:57:47.332+0000] {subprocess.py:93} INFO - 22/10/18 09:57:47 INFO DAGScheduler: Job 1 is finished. Cancelling potential speculative or zombie tasks for this job
+[2022-10-18T09:57:47.334+0000] {subprocess.py:93} INFO - 22/10/18 09:57:47 INFO TaskSchedulerImpl: Killing all running tasks in stage 1: Stage finished
+[2022-10-18T09:57:47.335+0000] {subprocess.py:93} INFO - 22/10/18 09:57:47 INFO DAGScheduler: Job 1 finished: json at NativeMethodAccessorImpl.java:0, took 9.968841 s
+[2022-10-18T09:57:53.158+0000] {subprocess.py:93} INFO - 22/10/18 09:57:53 INFO FileSourceStrategy: Pushed Filters:
+[2022-10-18T09:57:53.174+0000] {subprocess.py:93} INFO - 22/10/18 09:57:53 INFO FileSourceStrategy: Post-Scan Filters:
+[2022-10-18T09:57:53.180+0000] {subprocess.py:93} INFO - 22/10/18 09:57:53 INFO FileSourceStrategy: Output Data Schema: struct<asin: string, overall: double, reviewText: string, reviewerName: string, summary: string ... 1 more field>
+[2022-10-18T09:57:53.184+0000] {subprocess.py:93} INFO - 22/10/18 09:57:53 INFO FileSourceStrategy: Pushed Filters: IsNotNull(asin)
+[2022-10-18T09:57:53.187+0000] {subprocess.py:93} INFO - 22/10/18 09:57:53 INFO FileSourceStrategy: Post-Scan Filters: isnotnull(asin#35)
+[2022-10-18T09:57:53.189+0000] {subprocess.py:93} INFO - 22/10/18 09:57:53 INFO FileSourceStrategy: Output Data Schema: struct<asin: string, description: string, title: string ... 1 more fields>
+[2022-10-18T09:57:53.914+0000] {subprocess.py:93} INFO - 22/10/18 09:57:53 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[2022-10-18T09:57:53.918+0000] {subprocess.py:93} INFO - 22/10/18 09:57:53 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[2022-10-18T09:57:53.923+0000] {subprocess.py:93} INFO - 22/10/18 09:57:53 INFO SQLHadoopMapReduceCommitProtocol: Using output committer class org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+[2022-10-18T09:57:54.568+0000] {subprocess.py:93} INFO - 22/10/18 09:57:54 INFO CodeGenerator: Code generated in 129.396459 ms
+[2022-10-18T09:57:54.593+0000] {subprocess.py:93} INFO - 22/10/18 09:57:54 INFO MemoryStore: Block broadcast_4 stored as values in memory (estimated size 199.2 KiB, free 433.7 MiB)
+[2022-10-18T09:57:54.695+0000] {subprocess.py:93} INFO - 22/10/18 09:57:54 INFO MemoryStore: Block broadcast_4_piece0 stored as bytes in memory (estimated size 33.9 KiB, free 433.7 MiB)
+[2022-10-18T09:57:54.723+0000] {subprocess.py:93} INFO - 22/10/18 09:57:54 INFO BlockManagerInfo: Added broadcast_4_piece0 in memory on 22920f4e909f:41109 (size: 33.9 KiB, free: 434.3 MiB)
+[2022-10-18T09:57:54.736+0000] {subprocess.py:93} INFO - 22/10/18 09:57:54 INFO SparkContext: Created broadcast 4 from save at NativeMethodAccessorImpl.java:0
+[2022-10-18T09:57:54.750+0000] {subprocess.py:93} INFO - 22/10/18 09:57:54 INFO FileSourceScanExec: Planning scan with bin packing, max size: 25527129 bytes, open cost is considered as scanning 4194304 bytes.
+[2022-10-18T09:57:55.024+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO DAGScheduler: Registering RDD 11 (save at NativeMethodAccessorImpl.java:0) as input to shuffle 0
+[2022-10-18T09:57:55.052+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO CodeGenerator: Code generated in 19.192708 ms
+[2022-10-18T09:57:55.056+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO DAGScheduler: Got map stage job 2 (save at NativeMethodAccessorImpl.java:0) with 4 output partitions
+[2022-10-18T09:57:55.058+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO DAGScheduler: Final stage: ShuffleMapStage 2 (save at NativeMethodAccessorImpl.java:0)
+[2022-10-18T09:57:55.059+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO DAGScheduler: Parents of final stage: List()
+[2022-10-18T09:57:55.062+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO DAGScheduler: Missing parents: List()
+[2022-10-18T09:57:55.066+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO MemoryStore: Block broadcast_5 stored as values in memory (estimated size 199.2 KiB, free 433.5 MiB)
+[2022-10-18T09:57:55.070+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO DAGScheduler: Submitting ShuffleMapStage 2 (MapPartitionsRDD[11] at save at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2022-10-18T09:57:55.097+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO MemoryStore: Block broadcast_5_piece0 stored as bytes in memory (estimated size 33.9 KiB, free 433.4 MiB)
+[2022-10-18T09:57:55.099+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO BlockManagerInfo: Added broadcast_5_piece0 in memory on 22920f4e909f:41109 (size: 33.9 KiB, free: 434.3 MiB)
+[2022-10-18T09:57:55.101+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO SparkContext: Created broadcast 5 from save at NativeMethodAccessorImpl.java:0
+[2022-10-18T09:57:55.104+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO FileSourceScanExec: Planning scan with bin packing, max size: 19667774 bytes, open cost is considered as scanning 4194304 bytes.
+[2022-10-18T09:57:55.153+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO MemoryStore: Block broadcast_6 stored as values in memory (estimated size 18.0 KiB, free 433.4 MiB)
+[2022-10-18T09:57:55.242+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO MemoryStore: Block broadcast_6_piece0 stored as bytes in memory (estimated size 8.6 KiB, free 433.4 MiB)
+[2022-10-18T09:57:55.243+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO BlockManagerInfo: Added broadcast_6_piece0 in memory on 22920f4e909f:41109 (size: 8.6 KiB, free: 434.2 MiB)
+[2022-10-18T09:57:55.244+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO SparkContext: Created broadcast 6 from broadcast at DAGScheduler.scala:1513
+[2022-10-18T09:57:55.248+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO DAGScheduler: Submitting 4 missing tasks from ShuffleMapStage 2 (MapPartitionsRDD[11] at save at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0, 1, 2, 3))
+[2022-10-18T09:57:55.249+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO TaskSchedulerImpl: Adding task set 2.0 with 4 tasks resource profile 0
+[2022-10-18T09:57:55.251+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO DAGScheduler: Registering RDD 15 (save at NativeMethodAccessorImpl.java:0) as input to shuffle 1
+[2022-10-18T09:57:55.254+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO DAGScheduler: Got map stage job 3 (save at NativeMethodAccessorImpl.java:0) with 4 output partitions
+[2022-10-18T09:57:55.254+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO DAGScheduler: Final stage: ShuffleMapStage 3 (save at NativeMethodAccessorImpl.java:0)
+[2022-10-18T09:57:55.257+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO DAGScheduler: Parents of final stage: List()
+[2022-10-18T09:57:55.258+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO DAGScheduler: Missing parents: List()
+[2022-10-18T09:57:55.260+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO TaskSetManager: Starting task 0.0 in stage 2.0 (TID 8) (22920f4e909f, executor driver, partition 0, PROCESS_LOCAL, 4910 bytes) taskResourceAssignments Map()
+[2022-10-18T09:57:55.263+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO TaskSetManager: Starting task 1.0 in stage 2.0 (TID 9) (22920f4e909f, executor driver, partition 1, PROCESS_LOCAL, 4910 bytes) taskResourceAssignments Map()
+[2022-10-18T09:57:55.264+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO DAGScheduler: Submitting ShuffleMapStage 3 (MapPartitionsRDD[15] at save at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2022-10-18T09:57:55.266+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO TaskSetManager: Starting task 2.0 in stage 2.0 (TID 10) (22920f4e909f, executor driver, partition 2, PROCESS_LOCAL, 4910 bytes) taskResourceAssignments Map()
+[2022-10-18T09:57:55.267+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO TaskSetManager: Starting task 3.0 in stage 2.0 (TID 11) (22920f4e909f, executor driver, partition 3, PROCESS_LOCAL, 4910 bytes) taskResourceAssignments Map()
+[2022-10-18T09:57:55.269+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO Executor: Running task 0.0 in stage 2.0 (TID 8)
+[2022-10-18T09:57:55.270+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO Executor: Running task 2.0 in stage 2.0 (TID 10)
+[2022-10-18T09:57:55.271+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO Executor: Running task 1.0 in stage 2.0 (TID 9)
+[2022-10-18T09:57:55.273+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO Executor: Running task 3.0 in stage 2.0 (TID 11)
+[2022-10-18T09:57:55.282+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO MemoryStore: Block broadcast_7 stored as values in memory (estimated size 15.8 KiB, free 433.4 MiB)
+[2022-10-18T09:57:55.359+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO MemoryStore: Block broadcast_7_piece0 stored as bytes in memory (estimated size 7.9 KiB, free 433.4 MiB)
+[2022-10-18T09:57:55.361+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO BlockManagerInfo: Added broadcast_7_piece0 in memory on 22920f4e909f:41109 (size: 7.9 KiB, free: 434.2 MiB)
+[2022-10-18T09:57:55.363+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO SparkContext: Created broadcast 7 from broadcast at DAGScheduler.scala:1513
+[2022-10-18T09:57:55.365+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO DAGScheduler: Submitting 4 missing tasks from ShuffleMapStage 3 (MapPartitionsRDD[15] at save at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0, 1, 2, 3))
+[2022-10-18T09:57:55.366+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO TaskSchedulerImpl: Adding task set 3.0 with 4 tasks resource profile 0
+[2022-10-18T09:57:55.520+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO CodeGenerator: Code generated in 21.368584 ms
+[2022-10-18T09:57:55.684+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO FileScanRDD: Reading File path: file:///opt/***/files/product_Video_Games.json, range: 0-25527129, partition values: [empty row]
+[2022-10-18T09:57:56.007+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO FileScanRDD: Reading File path: file:///opt/***/files/product_Video_Games.json, range: 51054258-76581387, partition values: [empty row]
+[2022-10-18T09:57:56.008+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO FileScanRDD: Reading File path: file:///opt/***/files/product_Video_Games.json, range: 76581387-97914215, partition values: [empty row]
+[2022-10-18T09:57:56.015+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO FileScanRDD: Reading File path: file:///opt/***/files/product_Video_Games.json, range: 25527129-51054258, partition values: [empty row]
+[2022-10-18T09:57:56.019+0000] {subprocess.py:93} INFO - 22/10/18 09:57:55 INFO CodeGenerator: Code generated in 22.709375 ms
+[2022-10-18T09:57:56.022+0000] {subprocess.py:93} INFO - 22/10/18 09:57:56 INFO BlockManagerInfo: Removed broadcast_2_piece0 on 22920f4e909f:41109 in memory (size: 34.0 KiB, free: 434.3 MiB)
+[2022-10-18T09:57:56.060+0000] {subprocess.py:93} INFO - 22/10/18 09:57:56 INFO BlockManagerInfo: Removed broadcast_3_piece0 on 22920f4e909f:41109 in memory (size: 7.0 KiB, free: 434.3 MiB)
+[2022-10-18T09:58:10.405+0000] {subprocess.py:93} INFO - 22/10/18 09:58:10 INFO Executor: Finished task 1.0 in stage 2.0 (TID 9). 2071 bytes result sent to driver
+[2022-10-18T09:58:10.484+0000] {subprocess.py:93} INFO - 22/10/18 09:58:10 INFO Executor: Finished task 2.0 in stage 2.0 (TID 10). 2071 bytes result sent to driver
+[2022-10-18T09:58:10.848+0000] {subprocess.py:93} INFO - 22/10/18 09:58:10 INFO Executor: Finished task 0.0 in stage 2.0 (TID 8). 2071 bytes result sent to driver
+[2022-10-18T09:58:10.855+0000] {subprocess.py:93} INFO - 22/10/18 09:58:10 INFO Executor: Finished task 3.0 in stage 2.0 (TID 11). 2071 bytes result sent to driver
+[2022-10-18T09:58:11.160+0000] {subprocess.py:93} INFO - 22/10/18 09:58:10 INFO TaskSetManager: Starting task 0.0 in stage 3.0 (TID 12) (22920f4e909f, executor driver, partition 0, PROCESS_LOCAL, 4911 bytes) taskResourceAssignments Map()
+[2022-10-18T09:58:11.210+0000] {subprocess.py:93} INFO - 22/10/18 09:58:10 INFO TaskSetManager: Finished task 1.0 in stage 2.0 (TID 9) in 15248 ms on 22920f4e909f (executor driver) (1/4)
+[2022-10-18T09:58:11.419+0000] {subprocess.py:93} INFO - 22/10/18 09:58:10 INFO TaskSetManager: Starting task 1.0 in stage 3.0 (TID 13) (22920f4e909f, executor driver, partition 1, PROCESS_LOCAL, 4911 bytes) taskResourceAssignments Map()
+[2022-10-18T09:58:11.435+0000] {subprocess.py:93} INFO - 22/10/18 09:58:10 INFO TaskSetManager: Starting task 2.0 in stage 3.0 (TID 14) (22920f4e909f, executor driver, partition 2, PROCESS_LOCAL, 4911 bytes) taskResourceAssignments Map()
+[2022-10-18T09:58:11.447+0000] {subprocess.py:93} INFO - 22/10/18 09:58:10 INFO TaskSetManager: Starting task 3.0 in stage 3.0 (TID 15) (22920f4e909f, executor driver, partition 3, PROCESS_LOCAL, 4911 bytes) taskResourceAssignments Map()
+[2022-10-18T09:58:11.456+0000] {subprocess.py:93} INFO - 22/10/18 09:58:10 INFO TaskSetManager: Finished task 2.0 in stage 2.0 (TID 10) in 15252 ms on 22920f4e909f (executor driver) (2/4)
+[2022-10-18T09:58:11.456+0000] {subprocess.py:93} INFO - 22/10/18 09:58:10 INFO TaskSetManager: Finished task 0.0 in stage 2.0 (TID 8) in 15255 ms on 22920f4e909f (executor driver) (3/4)
+[2022-10-18T09:58:11.460+0000] {subprocess.py:93} INFO - 22/10/18 09:58:10 INFO TaskSetManager: Finished task 3.0 in stage 2.0 (TID 11) in 15253 ms on 22920f4e909f (executor driver) (4/4)
+[2022-10-18T09:58:11.463+0000] {subprocess.py:93} INFO - 22/10/18 09:58:10 INFO Executor: Running task 3.0 in stage 3.0 (TID 15)
+[2022-10-18T09:58:11.466+0000] {subprocess.py:93} INFO - 22/10/18 09:58:10 INFO TaskSchedulerImpl: Removed TaskSet 2.0, whose tasks have all completed, from pool
+[2022-10-18T09:58:11.468+0000] {subprocess.py:93} INFO - 22/10/18 09:58:10 INFO Executor: Running task 2.0 in stage 3.0 (TID 14)
+[2022-10-18T09:58:11.470+0000] {subprocess.py:93} INFO - 22/10/18 09:58:10 INFO Executor: Running task 0.0 in stage 3.0 (TID 12)
+[2022-10-18T09:58:11.472+0000] {subprocess.py:93} INFO - 22/10/18 09:58:10 INFO Executor: Running task 1.0 in stage 3.0 (TID 13)
+[2022-10-18T09:58:11.473+0000] {subprocess.py:93} INFO - 22/10/18 09:58:10 INFO DAGScheduler: ShuffleMapStage 2 (save at NativeMethodAccessorImpl.java:0) finished in 15.440 s
+[2022-10-18T09:58:11.474+0000] {subprocess.py:93} INFO - 22/10/18 09:58:10 INFO DAGScheduler: looking for newly runnable stages
+[2022-10-18T09:58:11.478+0000] {subprocess.py:93} INFO - 22/10/18 09:58:10 INFO DAGScheduler: running: Set(ShuffleMapStage 3)
+[2022-10-18T09:58:11.480+0000] {subprocess.py:93} INFO - 22/10/18 09:58:10 INFO DAGScheduler: waiting: Set()
+[2022-10-18T09:58:11.483+0000] {subprocess.py:93} INFO - 22/10/18 09:58:10 INFO DAGScheduler: failed: Set()
+[2022-10-18T09:58:11.591+0000] {subprocess.py:93} INFO - 22/10/18 09:58:11 INFO CodeGenerator: Code generated in 392.133251 ms
+[2022-10-18T09:58:11.785+0000] {subprocess.py:93} INFO - 22/10/18 09:58:11 INFO FileScanRDD: Reading File path: file:///opt/***/files/metadata_Video_Games.json, range: 0-19667774, partition values: [empty row]
+[2022-10-18T09:58:11.788+0000] {subprocess.py:93} INFO - 22/10/18 09:58:11 INFO FileScanRDD: Reading File path: file:///opt/***/files/metadata_Video_Games.json, range: 19667774-39335548, partition values: [empty row]
+[2022-10-18T09:58:11.791+0000] {subprocess.py:93} INFO - 22/10/18 09:58:11 INFO FileScanRDD: Reading File path: file:///opt/***/files/metadata_Video_Games.json, range: 59003322-74476795, partition values: [empty row]
+[2022-10-18T09:58:11.807+0000] {subprocess.py:93} INFO - 22/10/18 09:58:11 INFO FileScanRDD: Reading File path: file:///opt/***/files/metadata_Video_Games.json, range: 39335548-59003322, partition values: [empty row]
+[2022-10-18T09:58:11.949+0000] {subprocess.py:93} INFO - 22/10/18 09:58:11 INFO CodeGenerator: Code generated in 137.440375 ms
+[2022-10-18T09:58:12.122+0000] {subprocess.py:93} INFO - 22/10/18 09:58:12 INFO CodeGenerator: Code generated in 25.045917 ms
+[2022-10-18T09:58:37.015+0000] {subprocess.py:97} INFO - Command exited with return code -9
+[2022-10-18T09:58:38.378+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 197, in execute
+    f'Bash command failed. The command returned a non-zero exit code {result.exit_code}.'
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code -9.
+[2022-10-18T09:58:38.480+0000] {taskinstance.py:1406} INFO - Marking task as FAILED. dag_id=spark-configer, task_id=task_2, execution_date=20221018T095623, start_date=20221018T095628, end_date=20221018T095838
+[2022-10-18T09:58:39.053+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 88 for task task_2 (Bash command failed. The command returned a non-zero exit code -9.; 224)
+[2022-10-18T09:58:39.880+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2022-10-18T09:58:40.431+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

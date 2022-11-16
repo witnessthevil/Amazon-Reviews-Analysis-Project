@@ -1,0 +1,2233 @@
+[2022-10-06T10:35:12.711+0000] {processor.py:156} INFO - Started process (PID=33) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:35:12.713+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:35:12.720+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:35:12.720+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:35:12.860+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:35:12.855+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 5, in <module>
+    from dags.dags_import.extractor import Extractor
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+ImportError: cannot import name 'Transformer' from 'dags_import.transformer' (/opt/airflow/dags/dags_import/transformer.py)
+[2022-10-06T10:35:12.861+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:35:12.885+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.178 seconds
+[2022-10-06T10:35:43.619+0000] {processor.py:156} INFO - Started process (PID=96) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:35:43.624+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:35:43.626+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:35:43.626+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:35:43.748+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:35:43.745+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 5, in <module>
+    from dags.dags_import.extractor import Extractor
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+ImportError: cannot import name 'Transformer' from 'dags_import.transformer' (/opt/airflow/dags/dags_import/transformer.py)
+[2022-10-06T10:35:43.749+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:35:43.768+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.155 seconds
+[2022-10-06T10:36:14.588+0000] {processor.py:156} INFO - Started process (PID=160) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:36:14.590+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:36:14.592+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:36:14.592+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:36:14.719+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:36:14.707+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 5, in <module>
+    from dags.dags_import.extractor import Extractor
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+ImportError: cannot import name 'Transformer' from 'dags_import.transformer' (/opt/airflow/dags/dags_import/transformer.py)
+[2022-10-06T10:36:14.722+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:36:14.743+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.158 seconds
+[2022-10-06T10:36:45.537+0000] {processor.py:156} INFO - Started process (PID=215) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:36:45.539+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:36:45.541+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:36:45.541+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:36:45.636+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:36:45.632+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 5, in <module>
+    from dags_import.extractor import Extractor
+  File "/opt/airflow/dags/dags_import/extractor.py", line 6, in <module>
+    from azure.storage.filedatalake import DataLakeServiceClient
+ModuleNotFoundError: No module named 'azure.storage.filedatalake'
+[2022-10-06T10:36:45.637+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:36:45.655+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.126 seconds
+[2022-10-06T10:37:16.563+0000] {processor.py:156} INFO - Started process (PID=280) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:37:16.566+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:37:16.569+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:37:16.569+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:37:16.927+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:37:16.925+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:37:16.929+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:37:16.953+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.393 seconds
+[2022-10-06T10:37:47.416+0000] {processor.py:156} INFO - Started process (PID=351) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:37:47.419+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:37:47.420+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:37:47.420+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:37:47.615+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:37:47.614+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:37:47.617+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:37:47.631+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.221 seconds
+[2022-10-06T10:38:17.884+0000] {processor.py:156} INFO - Started process (PID=422) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:38:17.887+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:38:17.889+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:38:17.889+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:38:18.116+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:38:18.115+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:38:18.119+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:38:18.133+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.257 seconds
+[2022-10-06T10:38:48.219+0000] {processor.py:156} INFO - Started process (PID=495) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:38:48.221+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:38:48.222+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:38:48.222+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:38:48.406+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:38:48.406+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:38:48.408+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:38:48.422+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.205 seconds
+[2022-10-06T10:39:18.564+0000] {processor.py:156} INFO - Started process (PID=557) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:39:18.565+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:39:18.567+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:39:18.567+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:39:18.741+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:39:18.740+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:39:18.743+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:39:18.758+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.197 seconds
+[2022-10-06T10:39:49.481+0000] {processor.py:156} INFO - Started process (PID=628) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:39:49.484+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:39:49.486+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:39:49.485+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:39:49.660+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:39:49.660+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:39:49.663+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:39:49.677+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.207 seconds
+[2022-10-06T10:40:20.020+0000] {processor.py:156} INFO - Started process (PID=700) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:40:20.023+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:40:20.025+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:40:20.025+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:40:20.205+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:40:20.204+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:40:20.207+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:40:20.221+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.208 seconds
+[2022-10-06T10:40:50.334+0000] {processor.py:156} INFO - Started process (PID=771) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:40:50.340+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:40:50.343+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:40:50.342+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:40:50.529+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:40:50.528+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:40:50.531+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:40:50.543+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.217 seconds
+[2022-10-06T10:41:20.692+0000] {processor.py:156} INFO - Started process (PID=842) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:41:20.693+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:41:20.695+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:41:20.695+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:41:20.874+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:41:20.873+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:41:20.875+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:41:20.888+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.204 seconds
+[2022-10-06T10:41:51.006+0000] {processor.py:156} INFO - Started process (PID=904) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:41:51.012+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:41:51.014+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:41:51.014+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:41:51.182+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:41:51.181+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:41:51.183+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:41:51.196+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.194 seconds
+[2022-10-06T10:42:21.710+0000] {processor.py:156} INFO - Started process (PID=976) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:42:21.714+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:42:21.716+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:42:21.716+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:42:21.887+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:42:21.886+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:42:21.889+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:42:21.902+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.196 seconds
+[2022-10-06T10:42:52.251+0000] {processor.py:156} INFO - Started process (PID=1048) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:42:52.254+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:42:52.272+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:42:52.272+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:42:52.453+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:42:52.453+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:42:52.455+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:42:52.468+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.224 seconds
+[2022-10-06T10:43:22.630+0000] {processor.py:156} INFO - Started process (PID=1118) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:43:22.632+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:43:22.634+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:43:22.634+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:43:22.808+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:43:22.807+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:43:22.811+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:43:22.826+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.203 seconds
+[2022-10-06T10:43:53.040+0000] {processor.py:156} INFO - Started process (PID=1189) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:43:53.043+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:43:53.045+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:43:53.045+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:43:53.227+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:43:53.226+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:43:53.228+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:43:53.242+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.208 seconds
+[2022-10-06T10:44:23.570+0000] {processor.py:156} INFO - Started process (PID=1251) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:44:23.574+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:44:23.576+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:44:23.576+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:44:23.771+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:44:23.770+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:44:23.772+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:44:23.786+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.223 seconds
+[2022-10-06T10:44:54.291+0000] {processor.py:156} INFO - Started process (PID=1322) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:44:54.293+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:44:54.295+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:44:54.295+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:44:54.487+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:44:54.485+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:44:54.490+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:44:54.508+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.221 seconds
+[2022-10-06T10:45:25.224+0000] {processor.py:156} INFO - Started process (PID=1394) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:45:25.229+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:45:25.230+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:45:25.230+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:45:25.405+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:45:25.404+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:45:25.406+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:45:25.420+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.201 seconds
+[2022-10-06T10:45:55.617+0000] {processor.py:156} INFO - Started process (PID=1466) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:45:55.620+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:45:55.622+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:45:55.622+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:45:55.806+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:45:55.805+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:45:55.809+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:45:55.822+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.213 seconds
+[2022-10-06T10:46:26.002+0000] {processor.py:156} INFO - Started process (PID=1537) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:46:26.006+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:46:26.008+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:46:26.008+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:46:26.197+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:46:26.196+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:46:26.198+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:46:26.211+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.215 seconds
+[2022-10-06T10:46:56.282+0000] {processor.py:156} INFO - Started process (PID=1605) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:46:56.284+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:46:56.286+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:46:56.285+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:46:56.482+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:46:56.480+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:46:56.483+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:46:56.499+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.221 seconds
+[2022-10-06T10:47:26.872+0000] {processor.py:156} INFO - Started process (PID=1668) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:47:26.875+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:47:26.877+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:47:26.877+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:47:27.051+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:47:27.051+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:47:27.054+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:47:27.066+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.198 seconds
+[2022-10-06T10:47:57.142+0000] {processor.py:156} INFO - Started process (PID=1739) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:47:57.145+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:47:57.148+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:47:57.147+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:47:57.326+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:47:57.325+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:47:57.327+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:47:57.344+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.208 seconds
+[2022-10-06T10:48:27.478+0000] {processor.py:156} INFO - Started process (PID=1811) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:48:27.481+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:48:27.483+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:48:27.483+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:48:27.660+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:48:27.659+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:48:27.662+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:48:27.675+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.207 seconds
+[2022-10-06T10:48:57.823+0000] {processor.py:156} INFO - Started process (PID=1881) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:48:57.826+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:48:57.828+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:48:57.828+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:48:58.026+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:48:58.026+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:48:58.028+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:48:58.042+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.225 seconds
+[2022-10-06T10:49:28.106+0000] {processor.py:156} INFO - Started process (PID=1952) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:49:28.111+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:49:28.114+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:49:28.114+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:49:28.346+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:49:28.345+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:49:28.348+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:49:28.366+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.266 seconds
+[2022-10-06T10:49:58.631+0000] {processor.py:156} INFO - Started process (PID=2014) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:49:58.633+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:49:58.635+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:49:58.635+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:49:58.802+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:49:58.801+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:49:58.804+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:49:58.818+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.194 seconds
+[2022-10-06T10:50:29.172+0000] {processor.py:156} INFO - Started process (PID=2085) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:50:29.174+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:50:29.177+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:50:29.176+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:50:29.365+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:50:29.364+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:50:29.366+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:50:29.382+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.217 seconds
+[2022-10-06T10:50:59.494+0000] {processor.py:156} INFO - Started process (PID=2156) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:50:59.496+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:50:59.498+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:50:59.498+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:50:59.684+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:50:59.683+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:50:59.687+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:50:59.702+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.217 seconds
+[2022-10-06T10:51:29.957+0000] {processor.py:156} INFO - Started process (PID=2227) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:51:29.960+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:51:29.965+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:51:29.964+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:51:30.147+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:51:30.146+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:51:30.149+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:51:30.163+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.213 seconds
+[2022-10-06T10:52:00.379+0000] {processor.py:156} INFO - Started process (PID=2296) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:52:00.382+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:52:00.386+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:52:00.386+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:52:00.582+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:52:00.581+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:52:00.584+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:52:00.599+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.223 seconds
+[2022-10-06T10:52:30.925+0000] {processor.py:156} INFO - Started process (PID=2358) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:52:30.927+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:52:30.928+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:52:30.928+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:52:31.099+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:52:31.099+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:52:31.102+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:52:31.115+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.195 seconds
+[2022-10-06T10:53:01.933+0000] {processor.py:156} INFO - Started process (PID=2429) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:53:01.935+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:53:01.936+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:53:01.936+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:53:02.125+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:53:02.124+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:53:02.127+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:53:02.140+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.217 seconds
+[2022-10-06T10:53:32.346+0000] {processor.py:156} INFO - Started process (PID=2499) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:53:32.349+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:53:32.351+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:53:32.351+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:53:32.523+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:53:32.523+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:53:32.526+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:53:32.539+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.199 seconds
+[2022-10-06T10:56:10.866+0000] {processor.py:156} INFO - Started process (PID=33) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:56:10.868+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:56:10.869+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:56:10.869+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:56:11.070+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:56:11.069+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:56:11.075+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:56:11.091+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.242 seconds
+[2022-10-06T10:56:41.446+0000] {processor.py:156} INFO - Started process (PID=104) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:56:41.449+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:56:41.451+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:56:41.451+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:56:41.699+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:56:41.695+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:56:41.701+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:56:41.720+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.279 seconds
+[2022-10-06T10:57:12.470+0000] {processor.py:156} INFO - Started process (PID=176) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:57:12.473+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:57:12.475+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:57:12.475+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:57:12.874+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:57:12.870+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:57:12.878+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:57:12.893+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.434 seconds
+[2022-10-06T10:57:43.591+0000] {processor.py:156} INFO - Started process (PID=239) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:57:43.594+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:57:43.596+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:57:43.596+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:57:43.818+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:57:43.817+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:57:43.820+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:57:43.833+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.255 seconds
+[2022-10-06T10:58:13.969+0000] {processor.py:156} INFO - Started process (PID=308) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:58:13.972+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:58:13.974+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:58:13.973+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:58:14.164+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:58:14.163+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:58:14.166+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:58:14.179+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.216 seconds
+[2022-10-06T10:58:44.532+0000] {processor.py:156} INFO - Started process (PID=379) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:58:44.534+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:58:44.535+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:58:44.535+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:58:44.710+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:58:44.709+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:58:44.712+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:58:44.729+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.203 seconds
+[2022-10-06T10:59:14.776+0000] {processor.py:156} INFO - Started process (PID=449) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:59:14.779+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:59:14.780+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:59:14.780+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:59:14.960+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:59:14.959+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:59:14.962+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:59:14.976+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.212 seconds
+[2022-10-06T10:59:45.088+0000] {processor.py:156} INFO - Started process (PID=521) to work on /opt/airflow/dags/dags.py
+[2022-10-06T10:59:45.093+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T10:59:45.095+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:59:45.095+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T10:59:45.303+0000] {logging_mixin.py:117} INFO - [2022-10-06T10:59:45.302+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T10:59:45.307+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T10:59:45.331+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.248 seconds
+[2022-10-06T11:00:15.799+0000] {processor.py:156} INFO - Started process (PID=583) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:00:15.801+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:00:15.803+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:00:15.803+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:00:15.986+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:00:15.985+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T11:00:15.987+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:00:16.003+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.211 seconds
+[2022-10-06T11:00:46.250+0000] {processor.py:156} INFO - Started process (PID=654) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:00:46.253+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:00:46.255+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:00:46.255+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:00:46.439+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:00:46.438+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T11:00:46.445+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:00:46.461+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.219 seconds
+[2022-10-06T11:01:16.649+0000] {processor.py:156} INFO - Started process (PID=723) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:01:16.652+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:01:16.655+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:01:16.654+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:01:16.837+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:01:16.836+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T11:01:16.840+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:01:16.858+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.214 seconds
+[2022-10-06T11:01:47.038+0000] {processor.py:156} INFO - Started process (PID=794) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:01:47.041+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:01:47.043+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:01:47.043+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:01:47.221+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:01:47.220+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T11:01:47.222+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:01:47.236+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.206 seconds
+[2022-10-06T11:02:17.496+0000] {processor.py:156} INFO - Started process (PID=856) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:02:17.499+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:02:17.502+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:02:17.501+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:02:17.691+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:02:17.690+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T11:02:17.693+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:02:17.707+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.220 seconds
+[2022-10-06T11:02:48.059+0000] {processor.py:156} INFO - Started process (PID=928) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:02:48.062+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:02:48.063+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:02:48.063+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:02:48.256+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:02:48.255+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T11:02:48.257+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:02:48.271+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.216 seconds
+[2022-10-06T11:03:19.091+0000] {processor.py:156} INFO - Started process (PID=999) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:03:19.095+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:03:19.096+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:03:19.096+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:03:19.298+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:03:19.297+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T11:03:19.301+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:03:19.316+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.230 seconds
+[2022-10-06T11:03:49.768+0000] {processor.py:156} INFO - Started process (PID=1070) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:03:49.771+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:03:49.773+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:03:49.773+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:03:49.954+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:03:49.953+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T11:03:49.956+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:03:49.969+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.209 seconds
+[2022-10-06T11:04:20.081+0000] {processor.py:156} INFO - Started process (PID=1140) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:04:20.083+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:04:20.085+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:04:20.084+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:04:20.257+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:04:20.256+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T11:04:20.258+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:04:20.273+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.196 seconds
+[2022-10-06T11:04:50.506+0000] {processor.py:156} INFO - Started process (PID=1202) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:04:50.509+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:04:50.511+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:04:50.511+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:04:50.725+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:04:50.724+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T11:04:50.728+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:04:50.744+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.244 seconds
+[2022-10-06T11:05:21.030+0000] {processor.py:156} INFO - Started process (PID=1272) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:05:21.033+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:05:21.035+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:05:21.035+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:05:21.225+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:05:21.224+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T11:05:21.227+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:05:21.242+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.221 seconds
+[2022-10-06T11:05:52.143+0000] {processor.py:156} INFO - Started process (PID=1343) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:05:52.145+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:05:52.147+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:05:52.147+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:05:52.338+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:05:52.337+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T11:05:52.340+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:05:52.354+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.219 seconds
+[2022-10-06T11:06:22.792+0000] {processor.py:156} INFO - Started process (PID=1414) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:06:22.794+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:06:22.795+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:06:22.795+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:06:22.973+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:06:22.972+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T11:06:22.975+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:06:22.989+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.201 seconds
+[2022-10-06T11:06:53.135+0000] {processor.py:156} INFO - Started process (PID=1485) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:06:53.137+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:06:53.138+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:06:53.138+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:06:53.311+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:06:53.310+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T11:06:53.312+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:06:53.325+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.197 seconds
+[2022-10-06T11:07:23.586+0000] {processor.py:156} INFO - Started process (PID=1547) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:07:23.588+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:07:23.590+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:07:23.590+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:07:23.824+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:07:23.823+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T11:07:23.827+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:07:23.852+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.270 seconds
+[2022-10-06T11:07:54.617+0000] {processor.py:156} INFO - Started process (PID=1618) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:07:54.620+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:07:54.622+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:07:54.622+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:07:54.819+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:07:54.818+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T11:07:54.821+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:07:54.837+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.226 seconds
+[2022-10-06T11:08:25.481+0000] {processor.py:156} INFO - Started process (PID=1689) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:08:25.483+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:08:25.485+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:08:25.485+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:08:25.694+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:08:25.691+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T11:08:25.697+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:08:25.728+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.252 seconds
+[2022-10-06T11:08:56.209+0000] {processor.py:156} INFO - Started process (PID=1762) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:08:56.212+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:08:56.215+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:08:56.215+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:08:56.418+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:08:56.417+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T11:08:56.421+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:08:56.436+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.231 seconds
+[2022-10-06T11:09:26.963+0000] {processor.py:156} INFO - Started process (PID=1833) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:09:26.965+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:09:26.966+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:09:26.966+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:09:27.157+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:09:27.156+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T11:09:27.159+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:09:27.178+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.218 seconds
+[2022-10-06T11:09:57.612+0000] {processor.py:156} INFO - Started process (PID=1895) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:09:57.614+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:09:57.616+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:09:57.616+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:09:57.813+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:09:57.812+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T11:09:57.816+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:09:57.833+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.228 seconds
+[2022-10-06T11:10:28.441+0000] {processor.py:156} INFO - Started process (PID=1965) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:10:28.444+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:10:28.446+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:10:28.446+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:10:28.653+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:10:28.652+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T11:10:28.655+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:10:28.669+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.234 seconds
+[2022-10-06T11:10:59.519+0000] {processor.py:156} INFO - Started process (PID=2036) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:10:59.520+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:10:59.522+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:10:59.522+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:10:59.716+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:10:59.715+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T11:10:59.717+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:10:59.731+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.214 seconds
+[2022-10-06T11:11:29.859+0000] {processor.py:156} INFO - Started process (PID=2107) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:11:29.862+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:11:29.864+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:11:29.864+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:11:30.079+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:11:30.078+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from dags_import.transformer import Transformer
+  File "/opt/airflow/dags/dags_import/transformer.py", line 62, in <module>
+    a = Transformer('Video_Games')
+  File "/opt/airflow/dags/dags_import/transformer.py", line 8, in __init__
+    self.spark = SparkSession.builder.appName('realityisdead').config('spark.jars.packages','org.apache.spark:spark-avro_2.12:3.3.0').getOrCreate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/sql/session.py", line 269, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 483, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 195, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/context.py", line 417, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+[2022-10-06T11:11:30.082+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:11:30.096+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.244 seconds
+[2022-10-06T11:11:49.663+0000] {processor.py:156} INFO - Started process (PID=2170) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:11:49.664+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:11:49.666+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:11:49.666+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:11:49.683+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:11:49.682+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 5, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-10-06T11:11:49.684+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:11:49.701+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.041 seconds
+[2022-10-06T11:12:20.043+0000] {processor.py:156} INFO - Started process (PID=2225) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:12:20.046+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:12:20.049+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:12:20.048+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:12:20.067+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:12:20.064+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 5, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-10-06T11:12:20.069+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:12:20.091+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.054 seconds
+[2022-10-06T11:12:50.458+0000] {processor.py:156} INFO - Started process (PID=2288) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:12:50.460+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:12:50.462+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:12:50.462+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:12:50.480+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:12:50.477+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 5, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-10-06T11:12:50.482+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:12:50.503+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.050 seconds
+[2022-10-06T11:13:07.364+0000] {processor.py:156} INFO - Started process (PID=2343) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:13:07.367+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:13:07.368+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:13:07.368+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:13:07.377+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:13:07.376+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 5
+    from apache-airflow-providers-apache-spark import SparkSubmitperator
+               ^
+SyntaxError: invalid syntax
+[2022-10-06T11:13:07.379+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:13:07.395+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.035 seconds
+[2022-10-06T11:13:37.800+0000] {processor.py:156} INFO - Started process (PID=2405) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:13:37.804+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:13:37.806+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:13:37.806+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:13:37.812+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:13:37.811+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 5
+    from apache-airflow-providers-apache-spark import SparkSubmitperator
+               ^
+SyntaxError: invalid syntax
+[2022-10-06T11:13:37.813+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:13:37.826+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.029 seconds
+[2022-10-06T11:14:08.394+0000] {processor.py:156} INFO - Started process (PID=2462) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:14:08.396+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:14:08.398+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:14:08.398+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:14:08.406+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:14:08.405+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 5
+    from apache-airflow-providers-apache-spark import SparkSubmitperator
+               ^
+SyntaxError: invalid syntax
+[2022-10-06T11:14:08.408+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:14:08.425+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.035 seconds
+[2022-10-06T11:14:24.614+0000] {processor.py:156} INFO - Started process (PID=2481) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:14:24.617+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:14:24.621+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:14:24.620+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:14:24.652+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:14:24.650+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 5, in <module>
+    from airflow.contrib.operators.spark_submit_operator import SparkSubmitperator
+ImportError: cannot import name 'SparkSubmitperator' from 'airflow.contrib.operators.spark_submit_operator' (unknown location)
+[2022-10-06T11:14:24.653+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:14:24.676+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.068 seconds
+[2022-10-06T11:14:33.981+0000] {processor.py:156} INFO - Started process (PID=2494) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:14:33.983+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:14:33.984+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:14:33.984+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:14:33.993+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:14:33.992+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 22
+    python_callable = pass,
+                         ^
+SyntaxError: invalid syntax
+[2022-10-06T11:14:33.993+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:14:34.009+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.031 seconds
+[2022-10-06T11:14:47.935+0000] {processor.py:156} INFO - Started process (PID=2537) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:14:47.937+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:14:47.939+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:14:47.938+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:14:47.970+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:14:47.967+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from airflow.contrib.operators.spark_submit_operator import SparkSubmitperator
+ImportError: cannot import name 'SparkSubmitperator' from 'airflow.contrib.operators.spark_submit_operator' (unknown location)
+[2022-10-06T11:14:47.972+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:14:47.996+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.066 seconds
+[2022-10-06T11:15:04.654+0000] {processor.py:156} INFO - Started process (PID=2554) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:15:04.656+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:15:04.656+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:15:04.656+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:15:04.674+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:15:04.672+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from airflow.contrib.operators.spark_submit_operator import SparkSubmitOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/deprecation_tools.py", line 36, in getattr_with_deprecation
+    return getattr(importlib.import_module(new_module), new_class_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-10-06T11:15:04.675+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:15:04.688+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.037 seconds
+[2022-10-06T11:15:34.787+0000] {processor.py:156} INFO - Started process (PID=2614) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:15:34.790+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:15:34.792+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:15:34.791+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:15:34.819+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:15:34.815+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from airflow.contrib.operators.spark_submit_operator import SparkSubmitOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/deprecation_tools.py", line 36, in getattr_with_deprecation
+    return getattr(importlib.import_module(new_module), new_class_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-10-06T11:15:34.823+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:15:34.847+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.062 seconds
+[2022-10-06T11:16:05.227+0000] {processor.py:156} INFO - Started process (PID=2678) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:16:05.231+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:16:05.234+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:16:05.234+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:16:05.251+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:16:05.248+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from airflow.contrib.operators.spark_submit_operator import SparkSubmitOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/deprecation_tools.py", line 36, in getattr_with_deprecation
+    return getattr(importlib.import_module(new_module), new_class_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-10-06T11:16:05.253+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:16:05.269+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.046 seconds
+[2022-10-06T11:16:35.504+0000] {processor.py:156} INFO - Started process (PID=2742) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:16:35.508+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:16:35.509+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:16:35.509+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:16:35.527+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:16:35.524+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from airflow.contrib.operators.spark_submit_operator import SparkSubmitOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/deprecation_tools.py", line 36, in getattr_with_deprecation
+    return getattr(importlib.import_module(new_module), new_class_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-10-06T11:16:35.529+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:16:35.548+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.049 seconds
+[2022-10-06T11:17:05.925+0000] {processor.py:156} INFO - Started process (PID=2797) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:17:05.926+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:17:05.930+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:17:05.929+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:17:05.951+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:17:05.947+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from airflow.contrib.operators.spark_submit_operator import SparkSubmitOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/deprecation_tools.py", line 36, in getattr_with_deprecation
+    return getattr(importlib.import_module(new_module), new_class_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-10-06T11:17:05.953+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:17:05.974+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.053 seconds
+[2022-10-06T11:17:36.688+0000] {processor.py:156} INFO - Started process (PID=2861) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:17:36.691+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:17:36.692+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:17:36.692+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:17:36.709+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:17:36.706+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from airflow.contrib.operators.spark_submit_operator import SparkSubmitOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/deprecation_tools.py", line 36, in getattr_with_deprecation
+    return getattr(importlib.import_module(new_module), new_class_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-10-06T11:17:36.712+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:17:36.730+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.046 seconds
+[2022-10-06T11:18:07.112+0000] {processor.py:156} INFO - Started process (PID=2925) to work on /opt/airflow/dags/dags.py
+[2022-10-06T11:18:07.114+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2022-10-06T11:18:07.117+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:18:07.117+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2022-10-06T11:18:07.134+0000] {logging_mixin.py:117} INFO - [2022-10-06T11:18:07.131+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from airflow.contrib.operators.spark_submit_operator import SparkSubmitOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/deprecation_tools.py", line 36, in getattr_with_deprecation
+    return getattr(importlib.import_module(new_module), new_class_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-10-06T11:18:07.135+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2022-10-06T11:18:07.154+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags.py took 0.050 seconds
