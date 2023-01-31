@@ -1,6 +1,6 @@
 import time
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import col,from_unixtime,udf
+from pyspark.sql.functions import col,from_unixtime,udf,substring
 from pyspark.sql.types import *
 import os
 from Logger import Logger
@@ -95,11 +95,7 @@ class Transformer:
 
             dataframe = self.data_cleasing()
 
-            year = udf(lambda x: x[-4:])
-
-            self.spark.udf.register('year',year)
-
-            time_df = dataframe.select(year(col('unixReviewTime')).alias('year'))
+            time_df = dataframe.select(substring(col('unixReviewTime'),-4,4).alias('year'))
 
             time_groupBy_df = time_df.groupBy('year').count().orderBy(col('year').asc()).withColumnRenamed('count(year)','avg_review')
 
